@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Profile"
+        android:id="@+id/profile"
+        app:showAsAction="ifRoom"/>
+    <item android:title="Events"
+        android:id="@+id/events"
+        app:showAsAction="ifRoom"/>
+    <item android:title="Your Events"
+        android:id="@+id/yourevents"
+        app:showAsAction="ifRoom"/>
+    <item android:title="About Us"
+        android:id="@+id/aboutus"
+        app:showAsAction="ifRoom"/>
+    <item android:title="Log Out"
+        android:id="@+id/logout"
+        app:showAsAction="ifRoom"/>
+</menu>
